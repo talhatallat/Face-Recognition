@@ -23,7 +23,7 @@ The project is divided into several different objectives parts that are required
 The chosen solution requires the use of Anaconda, Python, OpenCV and HaarCascade to be able to process the image or video for recognizing a face. Also, a camera is required to discover & identify the face features over live video. 
 Importantly OpenCV was a huge step to this project since it uses machine learning algorithms to search and identify faces within a picture.
 
-** Block diagram of Face Recognition: **
+**Block diagram of Face Recognition:**
 
 ![image](https://user-images.githubusercontent.com/73076876/135737701-5cc8bf77-1841-4fa8-b466-51233052b1df.png)
 
