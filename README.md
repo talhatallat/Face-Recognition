@@ -3,8 +3,8 @@
 **Project Description:**
 
 A Facial recognition system is a well-known technology capable of identifying or verifying a human face in a digital image, video or a live video source from a camera. This technology detects people’s faces and recognises who the person is. It works by reading the facial features of a given image and compares them with facial features stored within a database. There are two major parts to this project as listed below.
-  •	Face Detection
-  •	Facial Reignition
+* Face Detection
+* Facial Reignition
 This project is suitable for security purposes for recognizing humans and can be used for surveillance, medical centre, retail stores, etc. For example, this recognizer can work like a home assistant unlocking a door automatically for home users when users are present at the door. If the facial feature of a face matches with a face feature within a database, it can provide user access into the house with some interface that can be implemented. However, Face Recognition is the core of identification, so this project mainly focuses on the core alone.
 
 **Project Aim:**
