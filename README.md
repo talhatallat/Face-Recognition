@@ -10,15 +10,16 @@ This project is suitable for security purposes for recognizing humans and can be
 **Project Aim:**
 
 This aim of this project is to setup face detection and facial recognition features of the overall face reignition project. The initial aim of the project was to design and program a facial recognition system that can identify human’s faces in real-time and making sure that is suitable for security purposes, whether somebody can rely on this system or not. 
+
 The project is divided into several different objectives parts that are required to complete this project.
-•	To read a live video camera for detection & recognition 
-•	To detect a face from a video camera or given image 
-•	Gather and train the data for face identification 
-•	To be able to Recognize a face 
-• Use Anaconda distribution to install OpenCV to identify faces within the image
-• Use Haar Cascade to solve the problem of detecting a face
-• Gather all the face data and stored it in the database and assigned ID’s to the gathered face data
-• Train a classifier to test an image along with a camera for live testing.
+  •	To read a live video camera for detection & recognition 
+  •	To detect a face from a video camera or given image 
+  •	Gather and train the data for face identification 
+  •	To be able to Recognize a face 
+  • Use Anaconda distribution to install OpenCV to identify faces within the image
+  • Use Haar Cascade to solve the problem of detecting a face
+  • Gather all the face data and stored it in the database and assigned ID’s to the gathered face data
+  • Train a classifier to test an image along with a camera for live testing.
 
 The chosen solution requires the use of Anaconda, Python, OpenCV and HaarCascade to be able to process the image or video for recognizing a face. Also, a camera is required to discover & identify the face features over live video. 
 Importantly OpenCV was a huge step to this project since it uses machine learning algorithms to search and identify faces within a picture.
