@@ -1,29 +1,42 @@
 # Face-Recognition
 
-**Project Description:**
+### **Project Description:**
 
-A Facial recognition system is a well-known technology capable of identifying or verifying a human face in a digital image, video or a live video source from a camera. This technology detects people’s faces and recognises who the person is. It works by reading the facial features of a given image and compares them with facial features stored within a database. 
-There are two major parts to this project as listed below.
-* Face Detection
-* Facial Reignition
+Facial recognition is a computer vision technology used to detect, identify, or verify individuals from images, videos, or live camera feeds. The system analyses facial features and compares them with stored facial data to determine whether an individual can be recognised.
 
-This project is suitable for security purposes for recognizing humans and can be used for surveillance, medical centre, retail stores, etc. For example, this recognizer can work like a home assistant unlocking a door automatically for home users when users are present at the door. If the facial feature of a face matches with a face feature within a database, it can provide user access into the house with some interface that can be implemented. However, Face Recognition is the core of identification, so this project mainly focuses on the core alone.
+The project consists of two main components:
+* <b>Face Detection</b> – detecting human faces
+* <b>Face Recognition</b> – identifying individuals
 
-**Project Aim:**
+The system is primarily designed for **security, surveillance, and identity verification**, with potential applications in areas such as **access control, workplace security, residential security, retail, healthcare facilities, and smart-building systems**.
 
-This aim of this project is to setup face detection and facial recognition features of the overall face reignition project. The initial aim of the project was to design and program a facial recognition system that can identify human’s faces in real-time and making sure that is suitable for security purposes, whether somebody can rely on this system or not. 
+For example, the system could be integrated into an **automated access-control system**, where a camera detects a person and compares their facial features against authorised user data stored in a database. If a match is identified, the system could trigger an appropriate action, such as granting access or recording the event.
+
+The project focuses on the **core facial recognition process**, including facial data collection, detection, database storage, model training, identification, and real-time testing. Rather than developing a complete commercial security solution, the project demonstrates and evaluates the underlying technology and its potential for real-world security applications.
+
+
+### **Project Aim:**
+
+Develop a real-time facial detection and recognition system for security and surveillance, capable of detecting, and recognising human faces using a live camera or images.
+
 
 The project is divided into several different objectives parts that are required to complete this project.
-* To read a live video camera for detection & recognition 
-* To detect a face from a video camera or given image 
-* Gather and train the data for face identification 
-* To be able to Recognize a face 
-* Use Anaconda distribution to install OpenCV to identify faces within the image
-* Use Haar Cascade to solve the problem of detecting a face
-* Gather all the face data and stored it in the database and assigned ID’s to the gathered face data
-* Train a classifier to test an image along with a camera for live testing.
 
-The chosen solution requires the use of Anaconda, Python, OpenCV and HaarCascade to be able to process the image or video for recognizing a face. Also, a camera is required to discover & identify the face features over live video. 
+##### Face Detection:
+1. Capture live video stream.
+2. Detect faces from live camera feeds or images.
+
+##### Face Recognition:
+1. Capture live video from a camera.
+2. Detect faces using OpenCV and Haar-Cascade.
+3. Create a database to collect, store, and assign unique IDs to facial data.
+4. Train a classifier to recognize individuals.
+5. Test the system using images and live camera feeds.
+6. Optimise the system's recognition reliability.
+
+
+The chosen solution requires the use of Anaconda, Python, OpenCV and HaarCascade to be able to process the image or video for recognizing a face. 
+Also, a camera is required to discover & identify the face features over live video. 
 Importantly OpenCV was a huge step to this project since it uses machine learning algorithms to search and identify faces within a picture.
 
 **Block diagram of Face Recognition:**
